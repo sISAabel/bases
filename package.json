@@ -1,0 +1,22 @@
+{
+  "name": "bases",
+  "version": "1.0.0",
+  "description": "Listado de ejercicios y actividades en JS Vanilla para mejorar programando",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moiseslodeiro/bases.git"
+  },
+  "author": "Moisés Lodeiro Santiago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moiseslodeiro/bases/issues"
+  },
+  "homepage": "https://github.com/moiseslodeiro/bases#readme",
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
+}
