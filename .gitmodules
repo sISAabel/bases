@@ -1,0 +1,3 @@
+[submodule "soluciones"]
+	path = soluciones
+	url = git@github.com:moiseslodeiro/bases_sol.git
