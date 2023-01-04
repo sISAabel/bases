@@ -211,3 +211,6 @@ dist
 
 soluciones/
 soluciones/*
+soluciones/*.js
+
+tmp
