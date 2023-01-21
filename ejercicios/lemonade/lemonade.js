@@ -1,9 +1,9 @@
 /**
- * At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you, and order one at a time (in the order specified by bills).
-
-Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.
-
-Return true if and only if you can provide every customer with correct change.
+ * En un puesto de limonadas, cada limonada cuesta 5€. Los clientes hacen cola para comprarle
+ * y piden de una en una (en el orden especificado por los billetes). Cada cliente sólo
+ * comprará una limonada y pagará con un billete de 5, 10 o 20€. Debes proporcionar el
+ * cambio correcto a cada cliente para que la transacción neta sea que el cliente pague 5€.
+ * Devuelve verdadero si y sólo si puedes proporcionar el cambio correcto a cada cliente.
  */
 
 function lemonade(bills) {
