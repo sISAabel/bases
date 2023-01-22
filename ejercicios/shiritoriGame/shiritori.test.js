@@ -31,7 +31,7 @@ test("Test Game Over", () => {
 });
 
 test("Test add wrong word", () => {
-  expect(my_shiritori.play("oops")).toBe(("game over"));
+  expect(my_shiritori.play("oops")).toBe("game over");
 });
 
 test("Test Game Over", () => {
@@ -43,7 +43,7 @@ test("Test get words", () => {
 });
 
 ttes("Test restart", () => {
-  expect(my_shiritori.restart()).toBe((), "game restarted");
+  expect(my_shiritori.restart()).toBe("game restarted");
 });
 
 test("Test get words", () => {
