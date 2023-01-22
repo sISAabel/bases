@@ -1,29 +1,28 @@
 /**
- * This challenge is an English twist on the Japanese word game Shiritori. The basic premise is to follow two rules:
-
-First character of next word must match last character of previous word.
-The word must not have already been said.
-Below is an example of a Shiritori game:
-
-["word", "dowry", "yodel", "leader", "righteous", "serpent"]  // valid!
-
-["motive", "beach"]  // invalid! - beach should start with "e"
-
-["hive", "eh", "hive"]  // invalid! - "hive" has already been said
-Write a Shiritori class that has two instance properties:
-
-words: an array of words already said.
-game_over: a boolean that is true if the game is over.
-and two instance methods:
-
-play: a method that takes in a word as an argument and checks if it is valid (the word should follow rules #1 and #2 above).
-
-If it is valid, it adds the word to the words array, and returns the words array.
-If it is invalid (either rule is broken), it returns "game over" and sets the game_over boolean to true.
-restart: a method that sets the words array to an empty one [] and sets the game_over boolean to false. It should return "game restarted".
+ * Este ejercicio es una versión inglesa del juego de palabras japonés Shiritori.
+ * La premisa básica es seguir dos reglas:
+ * - 1: El primer carácter de la siguiente palabra debe coincidir con el último carácter de la palabra anterior.
+ * - 2: La palabra no debe estar ya dicha.
+ *
+ * A continuación se muestra un ejemplo de juego Shiritori:
+ * ["word", "dowry", "yodel", "leader", "righteous", "serpent"]  // Válido!
+ * ["motive", "beach"]  // Invalido! - beach debe comenzar con "e"
+ * ["hive", "eh", "hive"]  // Invalid! - "hive" ya se ha dicho
+ *
+ * Escribe una clase Shiritori que tenga dos atributos:
+ * - words: un array de palabras ya dichas.
+ * - game_over: un booleano que es verdadero si el juego ha terminado.
+ *
+ * Y dos métodos
+ * play: Un método que toma una palabra como argumento y comprueba si es válida (la palabra debe seguir las reglas #1 y #2 anteriores).
+ *       Si es válida, añade la palabra al array de palabras y devuelve el array de palabras.
+ *       Si no es válida (se incumple alguna de las reglas), devuelve "game over" y pone el booleano game_over a true.
+ * restart: Un método que establece el array de palabras a uno vacío [] y establece el booleano game_over a false. Debería devolver "game restarted".
  */
+
 class Shiritori {
-	
+  // Inicio código
+  // Fin código
 }
 
 module.exports = Shiritori;

@@ -1,75 +1,75 @@
 const Shiritori = require("./shiritori");
 
-my_shiritori = new Shiritori(); 
+my_shiritori = new Shiritori();
 
-test("test my_shitori", () => {
+test("Test Game Over", () => {
   expect(my_shiritori.game_over()).toBe(false);
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.play()).toBe(("apple"), ["apple"]);
+test("Test add word apple", () => {
+  expect(my_shiritori.play("apple")).toBe(["apple"]);
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.words()).toBe( ["apple"]);
+test("Test get words", () => {
+  expect(my_shiritori.words()).toBe(["apple"]);
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.play()).toBe(("ear"), ["apple", "ear"]);
+test("Test add word ear", () => {
+  expect(my_shiritori.play("ear")).toBe(["apple", "ear"]);
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.play()).toBe(("rhino"), ["apple", "ear", "rhino"]);
+test("Test add word rhino", () => {
+  expect(my_shiritori.play("rhino")).toBe(["apple", "ear", "rhino"]);
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.play()).toBe(("ocelot"), ["apple", "ear", "rhino", "ocelot"]);
+test("Test add word ocelot", () => {
+  expect(my_shiritori.play("ocelot")).toBe(["apple", "ear", "rhino", "ocelot"]);
 });
 
-test("test my_shitori", () => {
-  expect(my_shiritori.game_over()).toBe( false);
+test("Test Game Over", () => {
+  expect(my_shiritori.game_over()).toBe(false);
 });
 
-test("test my_shitori", () => {
-  expect(my_shiritori.play()).toBe(("oops"), "game over", "does not follow Rule 1 (input word's first character = last words last character)");
+test("Test add wrong word", () => {
+  expect(my_shiritori.play("oops")).toBe(("game over"));
 });
 
-test("test my_shitori", () => {
-  expect(my_shiritori.game_over()).toBe( true);
+test("Test Game Over", () => {
+  expect(my_shiritori.game_over()).toBe(true);
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.words()).toBe(["apple", "ear", "rhino", "ocelot"], "oops should not be added to the array");
+test("Test get words", () => {
+  expect(my_shiritori.words()).toBe(["apple", "ear", "rhino", "ocelot"]);
 });
 
-ttes("test my_shitori", () => {
+ttes("Test restart", () => {
   expect(my_shiritori.restart()).toBe((), "game restarted");
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.words()).toBe([]);
+test("Test get words", () => {
+  expect(my_shiritori.words()).toBe([]);
 });
 
-test("test my_shitori", () => {
+test("Test Game Over", () => {
   expect(my_shiritori.game_over()).toBe(false);
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.play()).toBe(("hostess"), ["hostess"]);
+test("Test add word hostess", () => {
+  expect(my_shiritori.play("hostess")).toBe(["hostess"]);
 });
 
-test("test my_shitori", () => {
+test("Test Game Over", () => {
   expect(my_shiritori.game_over()).toBe(false);
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.play()).toBe(("stash"), ["hostess", "stash"]);
+test("Test add word stash", () => {
+  expect(my_shiritori.play("stash")).toBe(["hostess", "stash"]);
 });
 
-test("test my_shitori", () => {
-  expect(my_shiritori.play()).toBe(("hostess"), "game over", "does not follow Rule 2 (word already exists in array)");
+test("Test Game Over", () => {
+  expect(my_shiritori.play("hostess")).toBe("game over");
 });
 
-test("test my_shitori", () => {
-  expectr(my_shiritori.words()).toBe(["hostess", "stash"]);
+test("Test get words", () => {
+  expect(my_shiritori.words()).toBe(["hostess", "stash"]);
 });
