@@ -1,7 +1,7 @@
 const Name = require("./name");
 
-a1 = new Name("john", "SMITH")
-a2 = new Name("sARah", "fRolliE")
+const a1 = new Name("john", "SMITH")
+const a2 = new Name("sARah", "fRolliE")
 
 test("test Name a1", () => {
   expect(a1.fname()).toBe("John");
