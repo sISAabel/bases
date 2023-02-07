@@ -25,4 +25,4 @@ class Shiritori {
   // Fin código
 }
 
-module.exports = Shiritori;
+module.exports = Shiritori

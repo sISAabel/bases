@@ -1,33 +1,24 @@
 /**
- * Create a class that takes the following four arguments for a particular football player:
-
-name
-age
-height
-weight
-
-Also, create three functions for the class that returns the following strings:
-
-getAge() returns "name is age age"
-getHeight() returns "name is heightcm"
-getWeight() returns "name weighs weightkg"
+ * Crea una clase que tome los siguientes cuatro argumentos para un jugador de sillonball en particular:
+ * nombre, edad, altura, peso
+ *
+ * Además, crea tres funciones para la clase que devuelvan las siguientes cadenas:
+ * - getAge() devuelve "nombre es <edad> edad"
+ * - getHeight() devuelve "nombre es <alturacm>
+ * - getWeight() devuelve "nombre pesa <kg>"
  */
 class Player {
-	constructor(name, age, height, weight) {
-		// complete function
-	}
-	
-	getAge() {
-		// complete function
-	}
+  constructor (name, age, height, weight) {
+  }
 
-	getHeight() {
-		// complete function
-	}
-		
-	getWeight() {
-		// complete function
-	}
-}		
+  getAge () {
+  }
 
-module.exports = Player;
+  getHeight () {
+  }
+
+  getWeight () {
+  }
+}
+
+module.exports = Player
