@@ -1,4 +1,4 @@
-const dart = require("./dart");
+const dartsScoring = require("./dart");
 
 test("Calcular puntuación de dardo", () => {
   expect(dartsScoring(-9, 9)).toBe(0);

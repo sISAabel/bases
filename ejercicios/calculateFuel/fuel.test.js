@@ -1,4 +1,4 @@
-const fuel = require("./fuel");
+const calculateFuel = require("./fuel");
 
 test("Calcular combustible", () => {
   expect(calculateFuel(15)).toBe(150);

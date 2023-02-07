@@ -6,7 +6,7 @@
  * @param num - "Hello" or "Bye", depending on the name
  */
 
-function helloBye() {
+function helloBye(name, num) {
   // Inicio código
   // Fin código
 }
