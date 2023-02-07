@@ -6,9 +6,9 @@
  * Devuelve verdadero si y sólo si puedes proporcionar el cambio correcto a cada cliente.
  */
 
-function lemonade(bills) {
+function lemonade (bills) {
   // Inicio código
   // Fin código
 }
 
-module.exports = lemonade;
+module.exports = lemonade

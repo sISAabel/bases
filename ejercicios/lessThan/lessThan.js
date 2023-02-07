@@ -5,9 +5,9 @@
  * @returns true
  */
 
-function lessThanOrEqualZero(num){
+function lessThanOrEqualZero (num) {
   // inicio código
   // fin código
 }
 
-module.exports = lessThanOrEqualZero;
+module.exports = lessThanOrEqualZero

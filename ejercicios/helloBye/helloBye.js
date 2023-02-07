@@ -6,9 +6,9 @@
  * @param num - "Hello" or "Bye", depending on the name
  */
 
-function helloBye(name, num) {
+function helloBye (name, num) {
   // Inicio código
   // Fin código
 }
 
-module.exports = helloBye;
+module.exports = helloBye

@@ -4,8 +4,8 @@
  *
  * @param {*} inputArray
  */
-function minMax(inputArray) {
+function minMax (inputArray) {
   // Inicio código
   // Fin código
 }
-module.exports = minMax;
+module.exports = minMax

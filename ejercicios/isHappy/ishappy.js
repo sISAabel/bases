@@ -13,8 +13,8 @@
  * @param {*} inputArray
  */
 
-function isHappy(n) {
+function isHappy (n) {
   // Inicio código
   // Fin código
 }
-module.exports = isHappy;
+module.exports = isHappy

@@ -4,8 +4,8 @@
  *
  * @param {*} inputArray
  */
-function firstOf(inputArray) {
+function firstOf (inputArray) {
   // Inicio código
   // Fin código
 }
-module.exports = firstOf;
+module.exports = firstOf

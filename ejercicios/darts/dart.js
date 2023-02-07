@@ -40,9 +40,9 @@
  * No se darán valores de tipo incorrecto.
  * */
 
-function dartsScoring(x, y) {
-	// Inicio código
+function dartsScoring (x, y) {
+  // Inicio código
   // Fin código
 }
 
-module.exports = dartsScoring;
+module.exports = dartsScoring

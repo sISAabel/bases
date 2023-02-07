@@ -16,9 +16,9 @@
  * @see https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Infinity
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
  */
-function calculator(num1, num2, op) {
+function calculator (num1, num2, op) {
   // Inicio código
   // Fin código
 }
 
-module.exports = calculator;
+module.exports = calculator

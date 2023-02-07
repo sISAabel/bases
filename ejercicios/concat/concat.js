@@ -3,8 +3,8 @@
  *
  * @param {*} inputArray
  */
-function concat(...args) {
+function concat (...args) {
   // Inicio código
   // Fin código
 }
-module.exports = concat;
+module.exports = concat

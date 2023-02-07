@@ -7,9 +7,9 @@
  * @param attack - the attack of the attacking Pokemon
  * @param defense - the defense of the opponent
  */
-function calculateDamage(yourType, opponentType, attack, defense){
+function calculateDamage (yourType, opponentType, attack, defense) {
   // inicio código
   // fin código
 }
 
-module.exports = calculateDamage;
+module.exports = calculateDamage
