@@ -13,8 +13,8 @@
  * Devuelve 100 si el combustible calculado resulta ser menor que 100.
  */
 
-function calculateFuel(value) {
+function calculateFuel (value) {
   // Inicio código
   // Fin código
 }
-module.exports = calculateFuel;
+module.exports = calculateFuel

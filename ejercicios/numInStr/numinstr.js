@@ -5,8 +5,8 @@
  *
  * @param {*} inputArray
  */
-function numInStr(inputArray) {
+function numInStr (inputArray) {
   // Inicio código
   // Fin código
 }
-module.exports = numInStr;
+module.exports = numInStr

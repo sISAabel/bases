@@ -6,9 +6,9 @@
  * @param name - una string que representa el nombre
  * @returns ¡Buenos días, xyz!
  */
-function helloWorld(name) {
+function helloWorld (name) {
   // Inicio código
   // Fin código
 }
 
-module.exports = helloWorld;
+module.exports = helloWorld
