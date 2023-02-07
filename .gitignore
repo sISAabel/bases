@@ -214,4 +214,5 @@ soluciones/*
 soluciones/*.js
 
 tmp
-clases
+clases/*
+clase/*
