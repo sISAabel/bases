@@ -1,41 +1,38 @@
 const Player = require('./player')
 
-const player1 = new Player('Patrick Mahomes', 24, 188, 104)
-const player2 = new Player('Jimmy Garoppolo', 28, 188, 102)
-const player3 = new Player('Julio Jones', 31, 191, 100)
+/**
+ * @see https://www.eurosport.es/natacion/mireia-belmonte_prs156912/person.shtml
+ * @see https://www.atptour.com/es/players/rafael-nadal/n409/overview
+ * @see https://www.moiseslodeiro.es/
+ */
 
-test('test player1', () => {
-  expect(player1.getAge()).toBe('Patrick Mahomes is age 24')
+const player1 = new Player(36, 187, 85, 'tenis')
+player1.name = 'Rafa Nadal';
+const player2 = new Player(32, 170, 59, 'swimming')
+player2.name = 'Mireia Belmonte';
+const player3 = new Player(34, 185, 80, 'sillonball')
+player3.name = 'Moisés Lodeiro';
+
+test('Test Rafa Nadal', () => {
+  expect(player1.getAge()).toBe('Rafa is 36')
+  expect(player1.getLastName()).toBe('Nadal')
+  expect(player1.getHeight()).toBe('Rafa is 187cm')
+  expect(player1.getWeight()).toBe('Rafa weighs 85kg')
+  expect(player1.getSport()).toBe('Rafa Nadal plays tenis')
 })
 
-test('test player1', () => {
-  expect(player1.getHeight()).toBe('Patrick Mahomes is 188cm')
+test('Test Mireia Belmonte', () => {
+  expect(player2.getAge()).toBe('Mireia is 32')
+  expect(player2.getLastName()).toBe('Belmonte')
+  expect(player2.getHeight()).toBe('Mireia is 170cm')
+  expect(player2.getWeight()).toBe('Mireia weighs 59kg')
+  expect(player2.getSport()).toBe('Mireia Belmonte plays swimming')
 })
 
-test('test player1', () => {
-  expect(player1.getWeight()).toBe('Patrick Mahomes weighs 104kg')
-})
-
-test('test player2', () => {
-  expect(player2.getAge()).toBe('Jimmy Garoppolo is age 28')
-})
-
-test('test player2', () => {
-  expect(player2.getHeight()).toBe('Jimmy Garoppolo is 188cm')
-})
-
-test('test player2', () => {
-  expect(player2.getWeight()).toBe('Jimmy Garoppolo weighs 102kg')
-})
-
-test('test player3', () => {
-  expect(player3.getAge()).toBe('Julio Jones is age 31')
-})
-
-test('test player3', () => {
-  expect(player3.getHeight()).toBe('Julio Jones is 191cm')
-})
-
-test('test player3', () => {
-  expect(player3.getWeight()).toBe('Julio Jones weighs 100kg')
+test('Test Moi :)', () => {
+  expect(player3.getAge()).toBe('Moisés Lodeiro is 34')
+  expect(player3.getLastName()).toBe('Lodeiro')
+  expect(player3.getHeight()).toBe('Moisés Lodeiro is 185cm')
+  expect(player3.getWeight()).toBe('Moisés Lodeiro weighs 80kg')
+  expect(player3.getSport()).toBe('Moisés Lodeiro plays sillonball')
 })
