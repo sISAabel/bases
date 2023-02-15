@@ -5,6 +5,7 @@
 // Inicio código
 function volume (size)
 {
+  return size.width * size.length * size.height;
 }
 // Fin código
 

@@ -5,6 +5,8 @@
  */
 function concat (...args) {
   // Inicio código
+  const newArray = args.flatMap((num) => num)
+  return newArray;
   // Fin código
 }
 module.exports = concat

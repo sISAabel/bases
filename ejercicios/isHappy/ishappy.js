@@ -15,6 +15,11 @@
 
 function isHappy (n) {
   // Inicio código
+  if (n === 1) {
+    return true
+  }
+
+  
   // Fin código
 }
 module.exports = isHappy

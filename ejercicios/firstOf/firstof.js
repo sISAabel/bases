@@ -6,6 +6,12 @@
  */
 function firstOf (inputArray) {
   // Inicio código
+  if (typeof (inputArray) === 'object') {
+    return inputArray[0]
+  } else {
+    return 0
+  }
   // Fin código
 }
+
 module.exports = firstOf
